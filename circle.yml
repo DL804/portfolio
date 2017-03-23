@@ -1,0 +1,5 @@
+deployment: 
+  prod: 
+    branch: master
+    commands: 
+      - aws s3 sync --delete portfolio s3://www.darrenclee.com
