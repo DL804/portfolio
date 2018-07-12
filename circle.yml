@@ -2,7 +2,7 @@ deployment:
   prod: 
     branch: master
     commands: 
-      - aws s3 sync . s3://www.darrenclee.com --delete
+      - aws s3 sync . s3://darrenclee.com --delete
 
 test: 
   override: 
